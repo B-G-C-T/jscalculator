@@ -15,7 +15,7 @@
   flex-direction: column;
   align-items: center;
   background-color: rgb(7, 210, 199);
-  transition: 0.8s all;
+  transition: 5s all;
 }
 
 h1 {

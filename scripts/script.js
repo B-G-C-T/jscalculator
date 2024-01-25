@@ -23,7 +23,7 @@ function changeTheme() {
   const theme = document.getElementById("theme");
   setTimeout(() => {
     toast.innerHTML = "Calculator";
-  }, 1500);
+  }, 100);
   if (theme.getAttribute("href") === lightTheme) {
     theme.setAttribute("href", darkTheme);
     themeIcon.setAttribute("src", sunIcon);
